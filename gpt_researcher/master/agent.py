@@ -34,7 +34,7 @@ class GPTResearcher:
         parent_query: str = "",
         subtopics: list = [],
         visited_urls: set = set(),
-        verbose: bool = True,
+        verbose: bool = False,
         context=[],
         headers: dict = None,  # Add headers parameter
     ):
