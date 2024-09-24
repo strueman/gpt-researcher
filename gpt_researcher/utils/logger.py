@@ -10,7 +10,7 @@ TRACE_LOG_LEVEL = 5
 def get_formatted_logger():
     logger = logging.getLogger("scraper")
     # Set the logging level
-    logger.setLevel(logging.INFO)
+    logger.setLevel(logging.CRITICAL)
 
     # Create a handler
     handler = logging.StreamHandler()
