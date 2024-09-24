@@ -418,7 +418,7 @@ async def generate_report(
 
 
 async def stream_output(
-    type, content, output, websocket=None, output_log=True, metadata=None
+    type, content, output, websocket=None, output_log=False, metadata=None
 ):
     """
     Streams output to the websocket
