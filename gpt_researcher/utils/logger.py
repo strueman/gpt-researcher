@@ -5,7 +5,7 @@ from typing import Literal
 
 import click
 
-TRACE_LOG_LEVEL = 5
+TRACE_LOG_LEVEL = 0
 
 def get_formatted_logger():
     logger = logging.getLogger("scraper")
